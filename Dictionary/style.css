@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Verdana-0--';
+}
+
+h1 {
+
+    text-align: center;
+    padding-top:10%;
+    color:#7B68EE;
+}
+
+img {
+
+    width: 450px;
+    padding-top:400px;
+    float:right;
+
+}
+
+body {
+
+    background-color:#FFFFE0;
+}
+
+.container {
+
+    background-color: aliceblue;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #7B68EE;
+}
+
+.search-box {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #7B68EE;
+    padding: 5px;
+    width: 70%;
+    font-size: 30px;
+    background-color:aliceblue ;
+
+
+}
+
+.search-box button {
+
+    padding: 20px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #4fb9af;
+    border:none;
+    font-weight: bolder;
+    color: #F0FFFF;
+    font-size: 20px;
+    
+
+}
+
+.search-box button:hover {
+
+    background-color: #7B68EE;
+    color: #F0FFFF;
+    font-weight: bolder;
+}
+
+.search-box i{
+
+    padding-top:20px;
+    font-size: 20px;
+    color: #7B68EE;
+ }
+
+.search-result {
+    position: relative;
+}
+
+.word {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+button{
+
+    color: #4fb9af;
+    font-size: 30px;
+    border:none;
+    outline: none;
+    background-color: aliceblue;
+
+}
+
+button:hover {
+
+    color: #7B68EE;
+}
+
+.details {
+
+    display: flex;
+    gap: 10px;
+    color: #778899;
+    font-size: 20px;
+}
+
+.meaning {
+
+    color: #778899;
+    font-size: 20px;
+}
+
+.example {
+
+    color: #778899;
+    font-style: italic;
+    font-size: 20px;
+    border-left: solid 5px #4fb9af ;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+h2 {
+
+    color: #4fb9af;
+    padding-top:50px;
+    text-align: center;
+}
+
+h2 i {
+
+    color: #7B68EE;
+    size: 20px;
+    padding-left: 10px;
+}
